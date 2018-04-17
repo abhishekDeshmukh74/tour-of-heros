@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "push": "git add . && git commit -am 'lol' && git push -u origin master"
+    "push": "git add . && git commit -am $COMMENT && git push -u origin master"
   },
   "private": true,
   "dependencies": {
