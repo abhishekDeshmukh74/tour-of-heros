@@ -1,5 +1,5 @@
 {
-  "name": "tour-of-heros",
+  "name": "tour-of-heroes",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -8,7 +8,8 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "push": "git add . && git commit -am 'lol' && git push -u origin master"
   },
   "private": true,
   "dependencies": {
